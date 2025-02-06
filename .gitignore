@@ -1,0 +1,23 @@
+# Ignore .env (contains secrets)
+.env
+
+# Ignore large datasets
+climate_data/
+bird_data/
+fish_data/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment (if created)
+venv/
